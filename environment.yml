@@ -1,0 +1,9 @@
+name: navjev
+channels:
+  - aihabitat
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - habitat-sim=0.2.4
+  - headless

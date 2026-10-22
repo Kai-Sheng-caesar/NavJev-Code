@@ -1,0 +1,18 @@
+{
+  "habitat-core": {
+    "url": "https://github.com/ylwhxht/MSGNav.git",
+    "commit": "03681a178d6993265e838e1fbbaf2338c54e1c62",
+    "package_root": "habitat-lab"
+  },
+  "habitat-baselines": {
+    "url": "https://github.com/facebookresearch/habitat-lab.git",
+    "commit": "d6ed1c0a0e786f16f261de2beafe347f4186d0d8",
+    "package_root": "."
+  },
+  "recognize-anything": {
+    "url": "https://github.com/xinyu1205/recognize-anything.git",
+    "commit": "7cb804a8609e9f4b1a50b7f31436d2df40bb9481",
+    "package_root": ".",
+    "patch": "scripts/patches/ram-transformers.patch"
+  }
+}
